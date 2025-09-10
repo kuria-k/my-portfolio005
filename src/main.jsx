@@ -7,6 +7,7 @@ import About from './About.jsx'
 import Contact from './Contact.jsx'
 import Projects from './Projects.jsx'
 import Theme from './Theme.jsx'
+import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

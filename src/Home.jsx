@@ -1,5 +1,5 @@
 import React from "react";
-// import techieImage from '.assets/Images/Techie.jpg';
+import techieImage from './Images/Techie.jpg';
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { NavLink } from "react-router-dom";
@@ -16,7 +16,7 @@ function Home() {
   return (
     <div className={`transition-all duration-300 ${theme === 'dark' ? 'bg-gray-800 text-gray-100' : 'bg-gray-100 text-gray-800'}`}>
       <div className="relative w-full h-screen object-cover  bg-black/60">
-        <img src="src\Images\Techie.jpg" alt="" />
+        <img src={techieImage} alt="" />
       </div>
       <div className="absolute inset-0">
         <Navbar />

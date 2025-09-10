@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import aboutImage from './Images/About.me.jpg'
 import Navbar from './Navbar';
 import Footer from './Footer';
 
@@ -35,7 +36,7 @@ function About() {
           <div className="lg:w-4/6 mx-auto">
             <div className="rounded-lg h-64 overflow-hidden">
               <img
-                src="src/Images/About.me.jpg"
+                src={aboutImage}
                 alt="Kelvin Kuria"
                 className="object-cover object-center h-full w-full"
               />
