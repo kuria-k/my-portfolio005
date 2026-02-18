@@ -1,12 +1,35 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with **React** and **Tailwind CSS**.  
+This project is designed to showcase my front‑end development skills, highlight selected projects, and provide an easy way for prospective employers or collaborators to connect with me.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
+- Clean and professional UI using a custom color palette (Navy, White, Gray, Teal).
+- Responsive design for seamless viewing on desktop, tablet, and mobile.
+- Interactive animations powered by **Framer Motion**.
+- Sections for:
+  - Hero introduction
+  - About Me
+  - Featured Projects
+  - Contact form
+- Links to live demos of my projects (including **PharmaLink**, a smart pharmacy POS solution).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Tech Stack
+- **React** – Component‑based architecture for building dynamic UIs.
+- **Tailwind CSS** – Utility‑first CSS framework for rapid styling.
+- **Framer Motion** – Smooth animations and transitions.
+- **Vite / CRA** – Fast development environment (depending on setup).
+
+---
+
+##  Getting Started
+
+### Clone the repository
+```bash
+git clone https://github.com/yourusername/my-portfolio.git
+cd my-portfolio
+
