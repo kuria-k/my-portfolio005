@@ -30,6 +30,6 @@ This project is designed to showcase my front‑end development skills, highligh
 
 ### Clone the repository
 ```bash
-git clone https://github.com/yourusername/my-portfolio.git
+git clone https://github.com/kuria-k/my-portfolio005.git
 cd my-portfolio
 
