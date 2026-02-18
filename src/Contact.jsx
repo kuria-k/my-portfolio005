@@ -3,10 +3,11 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 const WHATSAPP_NUMBER = "254799011954";
-const EMAIL           = "kelvinmacharia442@gmail.com";
-const PHONE           = "+254 799 011 954";
-const LINKEDIN        = "https://www.linkedin.com/in/kelvin-kuria-6867302a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app";
-const GITHUB          = "https://github.com/kuria-k";
+const EMAIL = "kelvinmacharia442@gmail.com";
+const PHONE = "+254 799 011 954";
+const LINKEDIN =
+  "https://www.linkedin.com/in/kelvin-kuria-6867302a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app";
+const GITHUB = "https://github.com/kuria-k";
 
 const CONTACT_METHODS = [
   {
@@ -14,15 +15,25 @@ const CONTACT_METHODS = [
     value: EMAIL,
     description: "Click to compose directly in Gmail",
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.57 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+      <svg
+        className="w-6 h-6"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        viewBox="0 0 24 24"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.57 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+        />
       </svg>
     ),
     bg: "bg-gradient-to-br from-[#14B8A6]/10 to-[#14B8A6]/5 hover:from-[#14B8A6]/20 hover:to-[#14B8A6]/10",
     border: "border-[#14B8A6]/20 hover:border-[#14B8A6]/40",
     text: "text-[#14B8A6]",
     buttonBg: "bg-[#14B8A6] hover:bg-[#0d9488]",
-    action: "Compose in Gmail →"
+    action: "Compose in Gmail →",
   },
   {
     label: "WhatsApp",
@@ -38,7 +49,7 @@ const CONTACT_METHODS = [
     border: "border-[#25D366]/20 hover:border-[#25D366]/40",
     text: "text-[#25D366]",
     buttonBg: "bg-[#25D366] hover:bg-[#20b859]",
-    action: "Open WhatsApp →"
+    action: "Open WhatsApp →",
   },
   {
     label: "Phone",
@@ -46,15 +57,25 @@ const CONTACT_METHODS = [
     description: "Call or SMS",
     href: `tel:+254799011954`,
     icon: (
-      <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+      <svg
+        className="w-6 h-6"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        viewBox="0 0 24 24"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+        />
       </svg>
     ),
     bg: "bg-gradient-to-br from-[#14B8A6]/10 to-[#14B8A6]/5 hover:from-[#14B8A6]/20 hover:to-[#14B8A6]/10",
     border: "border-[#14B8A6]/20 hover:border-[#14B8A6]/40",
     text: "text-[#14B8A6]",
     buttonBg: "bg-[#14B8A6] hover:bg-[#0d9488]",
-    action: "Call Now →"
+    action: "Call Now →",
   },
   {
     label: "LinkedIn",
@@ -71,7 +92,7 @@ const CONTACT_METHODS = [
     border: "border-[#0A66C2]/20 hover:border-[#0A66C2]/40",
     text: "text-[#0A66C2]",
     buttonBg: "bg-[#0A66C2] hover:bg-[#084e94]",
-    action: "Connect →"
+    action: "Connect →",
   },
   {
     label: "GitHub",
@@ -87,7 +108,7 @@ const CONTACT_METHODS = [
     border: "border-slate-200 hover:border-slate-400",
     text: "text-[#1E3A8A]",
     buttonBg: "bg-[#1E3A8A] hover:bg-[#152c5e]",
-    action: "View Profile →"
+    action: "View Profile →",
   },
 ];
 
@@ -97,14 +118,14 @@ function Contact() {
     name: "",
     company: "",
     email: "",
-    phone: ""
+    phone: "",
   });
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [name]: value
+      [name]: value,
     }));
   };
 
@@ -115,26 +136,26 @@ function Contact() {
 
   const handleModalSubmit = (e) => {
     e.preventDefault();
-    
+
     // Format the email body with the form data
     const subject = encodeURIComponent("Let's Connect - Portfolio Inquiry");
     const body = encodeURIComponent(
-`Hi Kelvin,
+      `Hi Kelvin,
 
 I recently had the pleasure of reviewing your portfolio and was very impressed by your work. I would love to discuss potential collaboration opportunities and learn more about your experience.
 
 Here's a bit about me:
-${formData.name ? `Name: ${formData.name}` : ''}
-${formData.company ? `Company: ${formData.company}` : ''}
-${formData.email ? `Email: ${formData.email}` : ''}
-${formData.phone ? `Phone: ${formData.phone}` : ''}
+${formData.name ? `Name: ${formData.name}` : ""}
+${formData.company ? `Company: ${formData.company}` : ""}
+${formData.email ? `Email: ${formData.email}` : ""}
+${formData.phone ? `Phone: ${formData.phone}` : ""}
 
 If you’re available, I’d be glad to schedule a brief call or continue the conversation via email at your convenience.
 
 Looking forward to connecting.
 
 Best regards,
-${formData.name || '[Your Name]'}`
+${formData.name || "[Your Name]"}`,
     );
 
     // Gmail compose URL
@@ -142,7 +163,7 @@ ${formData.name || '[Your Name]'}`
 
     // Open Gmail in a new tab
     window.open(gmailUrl, "_blank");
-    
+
     // Close modal and reset form
     setIsModalOpen(false);
     setFormData({ name: "", company: "", email: "", phone: "" });
@@ -162,116 +183,127 @@ ${formData.name || '[Your Name]'}`
       {isModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
           {/* Backdrop with blur */}
-          <div 
+          <div
             className="absolute inset-0 bg-black/20 backdrop-blur-sm"
             onClick={closeModal}
           />
-          
+
           {/* Modal */}
-          <div className="relative w-full max-w-md bg-white/10 backdrop-blur-xl rounded-2xl border border-white/20 shadow-2xl p-6 animate-fadeIn">
-            {/* Glass effect overlay */}
-            <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-white/0 rounded-2xl pointer-events-none" />
-            
-            {/* Content */}
-            <div className="relative">
-              <div className="flex justify-between items-center mb-6">
-                <h3 className="text-xl font-semibold text-white">Compose Email</h3>
-                <button
-                  onClick={closeModal}
-                  className="text-white/60 hover:text-white transition-colors"
-                >
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                </button>
-              </div>
+          <div className="relative w-full max-w-md bg-white/95 backdrop-blur-xl rounded-2xl border border-gray-200 shadow-2xl p-6 animate-fadeIn">
+  {/* Glass effect overlay */}
+  <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent rounded-2xl pointer-events-none" />
 
-              <p className="text-white/70 text-sm mb-6">
-                Fill in your details below. They'll be automatically added to the email template.
-              </p>
+  {/* Content */}
+  <div className="relative">
+    <div className="flex justify-between items-center mb-6">
+      <h3 className="text-xl font-semibold text-gray-900">Compose Email</h3>
+      <button
+        onClick={closeModal}
+        className="text-gray-400 hover:text-gray-700 transition-colors"
+      >
+        <svg
+          className="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </button>
+    </div>
 
-              <form onSubmit={handleModalSubmit} className="space-y-4">
-                <div>
-                  <label className="block text-white/80 text-xs font-medium uppercase tracking-wider mb-1.5">
-                    Your Name *
-                  </label>
-                  <input
-                    type="text"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleInputChange}
-                    required
-                    placeholder="John Doe"
-                    className="w-full px-4 py-2.5 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-[#14B8A6] focus:ring-2 focus:ring-[#14B8A6]/30 transition-all"
-                  />
-                </div>
+    <p className="text-gray-600 text-sm mb-6">
+      Fill in your details below. They'll be automatically added to the email template.
+    </p>
 
-                <div>
-                  <label className="block text-white/80 text-xs font-medium uppercase tracking-wider mb-1.5">
-                    Company / Organization
-                  </label>
-                  <input
-                    type="text"
-                    name="company"
-                    value={formData.company}
-                    onChange={handleInputChange}
-                    placeholder="Acme Inc."
-                    className="w-full px-4 py-2.5 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-[#14B8A6] focus:ring-2 focus:ring-[#14B8A6]/30 transition-all"
-                  />
-                </div>
+    <form onSubmit={handleModalSubmit} className="space-y-4">
+      <div>
+        <label className="block text-gray-700 text-xs font-medium uppercase tracking-wider mb-1.5">
+          Your Name *
+        </label>
+        <input
+          type="text"
+          name="name"
+          value={formData.name}
+          onChange={handleInputChange}
+          required
+          placeholder="John Doe"
+          className="w-full px-4 py-2.5 bg-gray-50 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:border-[#14B8A6] focus:ring-2 focus:ring-[#14B8A6]/30 transition-all"
+        />
+      </div>
 
-                <div>
-                  <label className="block text-white/80 text-xs font-medium uppercase tracking-wider mb-1.5">
-                    Your Email *
-                  </label>
-                  <input
-                    type="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleInputChange}
-                    required
-                    placeholder="john@example.com"
-                    className="w-full px-4 py-2.5 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-[#14B8A6] focus:ring-2 focus:ring-[#14B8A6]/30 transition-all"
-                  />
-                </div>
+      <div>
+        <label className="block text-gray-700 text-xs font-medium uppercase tracking-wider mb-1.5">
+          Company / Organization
+        </label>
+        <input
+          type="text"
+          name="company"
+          value={formData.company}
+          onChange={handleInputChange}
+          placeholder="Acme Inc."
+          className="w-full px-4 py-2.5 bg-gray-50 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:border-[#14B8A6] focus:ring-2 focus:ring-[#14B8A6]/30 transition-all"
+        />
+      </div>
 
-                <div>
-                  <label className="block text-white/80 text-xs font-medium uppercase tracking-wider mb-1.5">
-                    Phone Number
-                  </label>
-                  <input
-                    type="tel"
-                    name="phone"
-                    value={formData.phone}
-                    onChange={handleInputChange}
-                    placeholder="+1 234 567 890"
-                    className="w-full px-4 py-2.5 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-[#14B8A6] focus:ring-2 focus:ring-[#14B8A6]/30 transition-all"
-                  />
-                </div>
+      <div>
+        <label className="block text-gray-700 text-xs font-medium uppercase tracking-wider mb-1.5">
+          Your Email *
+        </label>
+        <input
+          type="email"
+          name="email"
+          value={formData.email}
+          onChange={handleInputChange}
+          required
+          placeholder="john@example.com"
+          className="w-full px-4 py-2.5 bg-gray-50 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:border-[#14B8A6] focus:ring-2 focus:ring-[#14B8A6]/30 transition-all"
+        />
+      </div>
 
-                <div className="flex gap-3 pt-2">
-                  <button
-                    type="button"
-                    onClick={closeModal}
-                    className="flex-1 px-4 py-2.5 bg-white/10 hover:bg-white/20 text-white rounded-lg transition-all duration-200"
-                  >
-                    Cancel
-                  </button>
-                  <button
-                    type="submit"
-                    className="flex-1 px-4 py-2.5 bg-[#14B8A6] hover:bg-[#0d9488] text-white rounded-lg transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-[#14B8A6]/30"
-                  >
-                    Compose in Gmail →
-                  </button>
-                </div>
-              </form>
+      <div>
+        <label className="block text-gray-700 text-xs font-medium uppercase tracking-wider mb-1.5">
+          Phone Number
+        </label>
+        <input
+          type="tel"
+          name="phone"
+          value={formData.phone}
+          onChange={handleInputChange}
+          placeholder="+2547 06 567 890"
+          className="w-full px-4 py-2.5 bg-gray-50 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-400 focus:outline-none focus:border-[#14B8A6] focus:ring-2 focus:ring-[#14B8A6]/30 transition-all"
+        />
+      </div>
 
-              {/* Preview note */}
-              <p className="text-xs text-white/40 text-center mt-4">
-                Your details will be automatically added to the email template
-              </p>
-            </div>
-          </div>
+      <div className="flex gap-3 pt-2">
+        <button
+          type="button"
+          onClick={closeModal}
+          className="flex-1 px-4 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg transition-all duration-200"
+        >
+          Cancel
+        </button>
+        <button
+          type="submit"
+          className="flex-1 px-4 py-2.5 bg-[#14B8A6] hover:bg-[#0d9488] text-white rounded-lg transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-[#14B8A6]/30"
+        >
+          Compose in Gmail →
+        </button>
+      </div>
+    </form>
+
+    {/* Preview note */}
+    <p className="text-xs text-gray-400 text-center mt-4">
+      Your details will be automatically added to the email template
+    </p>
+  </div>
+</div>
+
         </div>
       )}
 
@@ -305,22 +337,33 @@ ${formData.name || '[Your Name]'}`
             </span>
             <span className="h-px w-8 bg-[#14B8A6]" />
           </div>
-          
+
           <h1
             className="text-4xl sm:text-5xl font-bold text-white leading-tight mb-4"
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
             Let's <em className="italic font-normal text-[#14B8A6]">Connect</em>
           </h1>
-          
+
           <p className="text-white/70 max-w-2xl mx-auto text-[0.97rem] leading-relaxed mb-6">
-            Available for full-time roles, freelance projects, and collaborations.
+            Available for full-time roles, freelance projects, and
+            collaborations.
           </p>
 
           {/* Email highlight card - direct compose to Gmail */}
           <div className="inline-flex items-center gap-3 bg-white/5 backdrop-blur-sm border border-white/10 rounded-full px-6 py-3">
-            <svg className="w-5 h-5 text-[#14B8A6]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            <svg
+              className="w-5 h-5 text-[#14B8A6]"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              />
             </svg>
             <span className="text-white/80 text-sm">Direct email:</span>
             <button
@@ -328,8 +371,18 @@ ${formData.name || '[Your Name]'}`
               className="text-white font-medium hover:text-[#14B8A6] transition-colors flex items-center gap-1 group"
             >
               {EMAIL}
-              <svg className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-all transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+              <svg
+                className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-all transform group-hover:translate-x-1"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M9 5l7 7-7 7"
+                />
               </svg>
             </button>
           </div>
@@ -339,20 +392,20 @@ ${formData.name || '[Your Name]'}`
       {/* Main content - Contact methods grid */}
       <section className="flex-1 bg-slate-50 py-20 px-6">
         <div className="max-w-6xl mx-auto">
-          
           {/* Section header */}
           <div className="text-center mb-12">
             <p className="text-[#14B8A6] text-xs font-medium tracking-[0.2em] uppercase mb-3">
               Choose Your Preferred Way
             </p>
-            <h2 
+            <h2
               className="text-3xl font-bold text-[#1E3A8A] mb-3"
               style={{ fontFamily: "'Playfair Display', serif" }}
             >
               How would you like to reach me?
             </h2>
             <p className="text-[#6B7280] max-w-xl mx-auto">
-              No forms, no waiting — just direct access to me. Click any option below to connect instantly.
+              No forms, no waiting — just direct access to me. Click any option
+              below to connect instantly.
             </p>
           </div>
 
@@ -362,17 +415,29 @@ ${formData.name || '[Your Name]'}`
               <a
                 key={method.label}
                 href={method.label === "Email" ? "#" : method.href}
-                onClick={method.label === "Email" ? handleEmailClick : undefined}
-                target={method.label !== "Email" && (method.href.startsWith("mailto") || method.href.startsWith("tel") ? "_self" : "_blank")}
+                onClick={
+                  method.label === "Email" ? handleEmailClick : undefined
+                }
+                target={
+                  method.label !== "Email" &&
+                  (method.href.startsWith("mailto") ||
+                  method.href.startsWith("tel")
+                    ? "_self"
+                    : "_blank")
+                }
                 rel="noopener noreferrer"
                 className={`group relative flex flex-col p-6 rounded-xl border transition-all duration-300 hover:-translate-y-1 hover:shadow-xl ${method.bg} ${method.border} ${method.label === "Email" ? "cursor-pointer" : ""}`}
               >
                 {/* Icon and label */}
                 <div className="flex items-start justify-between mb-4">
-                  <span className={`p-2.5 rounded-lg bg-white/80 backdrop-blur-sm ${method.text}`}>
+                  <span
+                    className={`p-2.5 rounded-lg bg-white/80 backdrop-blur-sm ${method.text}`}
+                  >
                     {method.icon}
                   </span>
-                  <span className={`text-xs font-medium px-2 py-1 rounded-full bg-white/80 ${method.text}`}>
+                  <span
+                    className={`text-xs font-medium px-2 py-1 rounded-full bg-white/80 ${method.text}`}
+                  >
                     {method.label}
                   </span>
                 </div>
@@ -388,7 +453,9 @@ ${formData.name || '[Your Name]'}`
                 </div>
 
                 {/* Action button */}
-                <div className={`${method.buttonBg} text-white text-sm font-medium px-4 py-2.5 rounded-lg text-center transition-all duration-200 group-hover:shadow-lg opacity-90 group-hover:opacity-100`}>
+                <div
+                  className={`${method.buttonBg} text-white text-sm font-medium px-4 py-2.5 rounded-lg text-center transition-all duration-200 group-hover:shadow-lg opacity-90 group-hover:opacity-100`}
+                >
                   {method.action}
                 </div>
 
@@ -403,22 +470,46 @@ ${formData.name || '[Your Name]'}`
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-[#14B8A6]/10 rounded-full flex items-center justify-center">
-                  <svg className="w-6 h-6 text-[#14B8A6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  <svg
+                    className="w-6 h-6 text-[#14B8A6]"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    />
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-[#1E3A8A]">Quick Email Compose</h3>
-                  <p className="text-sm text-[#6B7280]">Click below to open Gmail with your details pre-filled</p>
+                  <h3 className="text-lg font-semibold text-[#1E3A8A]">
+                    Quick Email Compose
+                  </h3>
+                  <p className="text-sm text-[#6B7280]">
+                    Click below to open Gmail with your details pre-filled
+                  </p>
                 </div>
               </div>
-              
+
               <button
                 onClick={handleEmailClick}
                 className="px-6 py-3 bg-[#14B8A6] hover:bg-[#0d9488] text-white rounded-lg transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-[#14B8A6]/30 flex items-center gap-2"
               >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 9h3a3 3 0 013 3v7a3 3 0 01-3 3H6a3 3 0 01-3-3v-7a3 3 0 013-3h3m6-4v4m-4-4h4" />
+                <svg
+                  className="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M15 9h3a3 3 0 013 3v7a3 3 0 01-3 3H6a3 3 0 01-3-3v-7a3 3 0 013-3h3m6-4v4m-4-4h4"
+                  />
                 </svg>
                 Compose Email to kelvinmacharia442@gmail.com
               </button>
@@ -426,11 +517,23 @@ ${formData.name || '[Your Name]'}`
 
             {/* Template preview */}
             <div className="mt-6 p-4 bg-slate-50 rounded-lg border border-slate-200">
-              <p className="text-xs text-[#6B7280] mb-2">Email template preview:</p>
+              <p className="text-xs text-[#6B7280] mb-2">
+                Email template preview:
+              </p>
               <div className="space-y-2 text-sm">
-                <p><span className="font-medium text-[#1E3A8A]">To:</span> kelvinmacharia442@gmail.com</p>
-                <p><span className="font-medium text-[#1E3A8A]">Subject:</span> Let's Connect - Portfolio Inquiry</p>
-                <p><span className="font-medium text-[#1E3A8A]">Body will include:</span></p>
+                <p>
+                  <span className="font-medium text-[#1E3A8A]">To:</span>{" "}
+                  kelvinmacharia442@gmail.com
+                </p>
+                <p>
+                  <span className="font-medium text-[#1E3A8A]">Subject:</span>{" "}
+                  Let's Connect - Portfolio Inquiry
+                </p>
+                <p>
+                  <span className="font-medium text-[#1E3A8A]">
+                    Body will include:
+                  </span>
+                </p>
                 <ul className="list-disc list-inside text-[#6B7280] text-xs space-y-1">
                   <li>Your name and company (if provided)</li>
                   <li>Your email and phone (if provided)</li>
@@ -443,7 +546,8 @@ ${formData.name || '[Your Name]'}`
           {/* Availability note */}
           <div className="mt-8 text-center">
             <p className="text-sm text-[#6B7280]">
-               Typically respond within 24 hours • Based in Nairobi, Kenya (GMT+3)
+              Typically respond within 24 hours • Based in Nairobi, Kenya
+              (GMT+3)
             </p>
           </div>
         </div>
