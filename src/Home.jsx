@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 
 /* ─── Update these with your real info ─── */
 const GITHUB  = "https://github.com/";
-const TAGLINE = "I build clean, fast, and thoughtful digital products — from pixel-perfect UIs to solid back-end systems.";
+const TAGLINE = "I build clean, fast, and thoughtful digital products from pixel-perfect UIs to solid back-end systems.";
 const STATS   = [
   { value: "20+",  label: "Projects Shipped" },
   { value: "1+",   label: "Years Experience" },
