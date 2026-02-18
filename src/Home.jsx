@@ -185,7 +185,7 @@ export default function Home() {
               I'm a{" "}
               <span className="text-[#1E3A8A] font-medium">full-stack developer</span> who
               lives at the intersection of design and engineering. I believe great software
-              isn't just functional — it's thoughtful, fast, and a pleasure to use.
+              isn't just functional  it's thoughtful, fast, and a pleasure to use.
             </p>
             <p>
               I bring a holistic perspective across{" "}
